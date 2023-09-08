@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nginx-pod
 spec:
-  container:
+  containers:
     - name: webserver
       image: nginx:1.25
       port:
